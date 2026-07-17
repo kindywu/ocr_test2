@@ -1,0 +1,54 @@
+## Gradle
+.gradle/
+/build/
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+## IDE - IntelliJ IDEA / Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+## VS Code / Editors
+.vscode/
+*.swp
+*.swo
+*~
+
+## OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+*.~
+
+## Android NDK / CMake
+local.properties
+.externalNativeBuild/
+.cxx/
+
+## Kotlin
+.kotlin/
+
+## Python virtual env
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+## Archives (downloaded dependencies)
+*.zip
+*.tar.gz
+*.tar
+
+## Generated output directories
+/results/
+/captures/
+
+## NCNN / native libs
+*.so
+*.dll
+*.dylib
