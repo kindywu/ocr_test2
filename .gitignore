@@ -48,7 +48,10 @@ __pycache__/
 /results/
 /captures/
 
-## NCNN / native libs
-*.so
+## Native libs (general)
 *.dll
 *.dylib
+*.so
+
+# 但跟踪 jniLibs 下的 MNN 运行时库（构建必须）
+!app/src/main/jniLibs/**/*.so
